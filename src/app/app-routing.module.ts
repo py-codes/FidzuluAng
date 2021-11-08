@@ -1,7 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { FidzuluComponent } from './fidzulu/fidzulu.component';
 
-const routes: Routes = [];
+// this is just a test connection , it needs to be modified
+// in the form /{parameter} for example -> /books
+const routes: Routes = [
+  {path:'test',component: FidzuluComponent }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
