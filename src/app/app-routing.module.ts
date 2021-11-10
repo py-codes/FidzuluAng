@@ -18,6 +18,7 @@ const routes: Routes = [
   {path:'bikes',component: BikesComponent },
   {path:'food',component: FoodComponent },
   {path:'toys',component: ToysComponent },
+  {path:'',component: FidzuluComponent },
 
 ];
 

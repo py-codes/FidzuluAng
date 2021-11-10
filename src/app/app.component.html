@@ -1,33 +1,47 @@
-<header>
-  <div id="companyname">
-     <h2>FidZulu</h2>
+<div class="withoutfooter">
+  <header>
+    <div id="companyname">
+       <h2>FidZulu</h2>
+    </div>
+  <nav>
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" [routerLink]="['/books']">Books</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/bikes']">Bikes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/food']">Food</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/toys']">Toys</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/laptops']">Laptops</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/dvds']">Dvds</a>
+      </li>
+    </ul>
+  </nav>
+  </header>
+
+
+
+  <main>
+    <router-outlet></router-outlet>
+  </main>
+</div>
+
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+
   </div>
-<nav>
-  <ul class="nav justify-content-center">
-    <li class="nav-item">
-      <a class="nav-link active" [routerLink]="['/books']">Books</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" [routerLink]="['/bikes']">Bikes</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" [routerLink]="['/food']">Food</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" [routerLink]="['/toys']">Toys</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" [routerLink]="['/laptops']">Laptops</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" [routerLink]="['/dvds']">Dvds</a>
-    </li>
-  </ul>
-</nav>
-</header>
+  <!-- Copyright -->
 
-
-
-<main>
-  <app-fidzulu></app-fidzulu>
-</main>
+</footer>
+<!-- Footer -->

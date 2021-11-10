@@ -28,3 +28,7 @@ a{
    padding: 15px;
    transform: 2s left;
  }
+
+ .withoutfooter{
+   min-height: 1vh;
+ }
