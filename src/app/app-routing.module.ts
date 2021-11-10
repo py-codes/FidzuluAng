@@ -5,7 +5,7 @@ import { FidzuluComponent } from './fidzulu/fidzulu.component';
 // this is just a test connection , it needs to be modified
 // in the form /{parameter} for example -> /books
 const routes: Routes = [
-  {path:'test',component: FidzuluComponent }
+  {path:'service',component: FidzuluComponent }
 ];
 
 @NgModule({

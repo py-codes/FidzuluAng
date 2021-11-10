@@ -5,22 +5,22 @@
 <nav>
   <ul class="nav justify-content-center">
     <li class="nav-item">
-      <a class="nav-link active" [routerLink]="['/test']">Books</a>
+      <a class="nav-link" [routerLink]="['/service',{'name':'books'}]">Books</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Bikes</a>
+      <a class="nav-link" [routerLink]="['/service',{'name':'bikes'}]">Bikes</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Food</a>
+      <a class="nav-link" [routerLink]="['/service',{'name':'food'}]">Food</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Toys</a>
+      <a class="nav-link" [routerLink]="['/service',{'name':'toys'}]">Toys</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Laptops</a>
+      <a class="nav-link" [routerLink]="['/service',{'name':'laptops'}]">Laptops</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Dvds</a>
+      <a class="nav-link" [routerLink]="['/service',{'name':'dvds'}]">Dvds</a>
     </li>
   </ul>
 </nav>
