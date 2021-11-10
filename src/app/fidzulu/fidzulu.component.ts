@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Books } from 'src/Model/books.model';
 
 @Component({
   selector: 'app-fidzulu',
@@ -8,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class FidzuluComponent implements OnInit {
 
   constructor() { }
+
 
   ngOnInit(): void {
   }
