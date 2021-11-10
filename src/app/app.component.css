@@ -30,5 +30,5 @@ a{
  }
 
  .withoutfooter{
-   min-height: 1vh;
+   min-height: calc(100vh - 50px);
  }
